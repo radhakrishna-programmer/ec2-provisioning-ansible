@@ -1,0 +1,10 @@
+# Python virtual environment
+venv/
+
+# Ansible vault password
+vault.pass
+
+# Optional: sensitive inventory or vars
+# inventory.ini
+# group_vars/
+
