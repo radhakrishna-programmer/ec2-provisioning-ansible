@@ -21,4 +21,6 @@ This project demonstrates automation of AWS EC2 instances using Ansible. It incl
 1. Configure your `inventory.ini` and `group_vars` with AWS credentials and region info.
 2. Run the playbook to create instances:
    ```bash
-   ansible-playbook ec2_create.yaml
+   ansible-playbook -i inventory.ini ec2_create.yaml
+   ansible-playbook -i inventory.ini ec2_stop.yaml
+
